@@ -66,18 +66,15 @@ const App = () => {
           allSolWallet={allSolWallet}
         />
       </main>
-      <footer className="p-4 text-center text-2xl">
+      <footer className="p-4 text-center text-2xl flex gap-[2rem] justify-center items-center">
         <span>Made By </span>
-        <a
-          href="https://github.com/kitsunekode"
-          target="_blank"
-          rel="noopener noreferrer"
+        <p
           className={`${
             isDarkMode ? 'text-[#f2e8cf]' : 'text-blue-600'
           } hover:underline hover:scale-105 transition`}
         >
-          KitsuneKode
-        </a>
+         Gaurav Rao
+        </p>
       </footer>
       <Analytics />
       <SpeedInsights />
